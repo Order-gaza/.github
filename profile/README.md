@@ -3,12 +3,14 @@
 <div align="center">
 
 ![Order Platform Logo](https://github.com/Order-gaza/.github/blob/main/launcher1.jpg)
+
 **Streamlining Logistics and E-Commerce Operations Through Advanced Technology**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Flutter](https://img.shields.io/badge/Flutter-3.6+-02569B?logo=flutter)](https://flutter.dev)
 [![PHP](https://img.shields.io/badge/PHP-8.0+-777BB4?logo=php)](https://php.net)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-34A853?logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.yasser.order)
 
 [Features](#features) • [Architecture](#architecture) • [Getting Started](#getting-started) • [Documentation](#documentation) • [Contributing](#contributing)
 
@@ -20,13 +22,19 @@
 
 **Order** is a comprehensive, multi-platform e-commerce and delivery management ecosystem. Built with modern, scalable technologies, this platform bridges the gap between customers, regional vendors, and logistics administrators, ensuring a seamless, real-time order fulfillment pipeline.
 
+### 📲 Download the Customer App
+
+<a href="https://play.google.com/store/apps/details?id=com.yasser.order">
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="80">
+</a>
+
 ### Platform Components
 
 Our platform consists of three tightly integrated repositories:
 
 | Component | Technology | Purpose | Repository |
 |-----------|-----------|---------|------------|
-| **Customer App** | Flutter / GetX | Mobile shopping and order tracking | [order_app](./order_app) |
+| **Customer App** | Flutter / GetX | Mobile shopping and order tracking | [order_app](./order_app) · [▶ Play Store](https://play.google.com/store/apps/details?id=com.yasser.order) |
 | **Admin Panel** | Flutter / GetX | System administration and vendor operations | [order_admin](./order_admin) |
 | **Backend API** | PHP / MySQL | Secure RESTful API and core business logic | [backend](./backend) |
 
@@ -285,6 +293,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 
 **Streamlining Delivery Operations with Precision**
+
+<a href="https://play.google.com/store/apps/details?id=com.yasser.order">
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="70">
+</a>
 
 [⬆ Back to Top](#order---comprehensive-delivery--e-commerce-platform)
 
