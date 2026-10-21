@@ -212,7 +212,7 @@ Authorization: Bearer {your_jwt_token}
 
 ---
 
-## 🎨 Features Overview
+##  Features Overview
 
 ### Customer Mobile App
 
