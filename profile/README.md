@@ -11,7 +11,6 @@
 [![PHP](https://img.shields.io/badge/PHP-8.0+-777BB4?logo=php)](https://php.net)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Google Play](https://img.shields.io/badge/Google_Play-Get_it_on-34A853?style=flat&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.yasser.order)
-[![Web App](https://img.shields.io/badge/Web_App-02569B?style=flat&logo=google-chrome&logoColor=white)](https://order-gaza.web.app/)
 
 [Features](#features) • [Architecture](#architecture) • [Getting Started](#getting-started) • [Documentation](#documentation) • [Contributing](#contributing)
 
@@ -19,36 +18,35 @@
 
 ---
 
-## 🎯 About
+##  About
 
 **Order** is a comprehensive, multi-platform e-commerce and delivery management ecosystem. Built with modern, scalable technologies, this platform bridges the gap between customers, regional vendors, and logistics administrators, ensuring a seamless, real-time order fulfillment pipeline.
 
-### 📲 Download & Access the Customer App
+###  Download & Access the Customer App
 
-[![Google Play](https://img.shields.io/badge/Google_Play-Get_it_on-34A853?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.yasser.order) [![Web App](https://img.shields.io/badge/Web_App-02569B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://order-gaza.web.app/)
-
+[![Google Play](https://img.shields.io/badge/Google_Play-Get_it_on-34A853?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.yasser.order) 
 ### Platform Components
 
 Our platform consists of three tightly integrated repositories:
 
 | Component | Technology | Purpose | Repository |
 |-----------|-----------|---------|------------|
-| **Customer App** | Flutter / GetX | Mobile shopping and order tracking | [order_app](./order_app) · [▶ Play Store](https://play.google.com/store/apps/details?id=com.yasser.order) · [🌐 Web App](https://order-gaza.web.app/) |
-| **Admin Panel** | Flutter / GetX | System administration and vendor operations | [order_admin](./order_admin) |
+| **Customer App** | Flutter / Riverpod | Mobile shopping and order tracking | [order_app](./order_app) · [▶ Play Store](https://play.google.com/store/apps/details?id=com.yasser.order) · 
+| **Admin Panel** | Flutter / Riverpod | System administration and vendor operations | [order_admin](./order_admin) |
 | **Backend API** | PHP / MySQL | Secure RESTful API and core business logic | [backend](./backend) |
 
 ---
 
-## ✨ Key Highlights
+##  Key Highlights
 
-### 🛍️ Customer Experience
+###  Customer Experience
 - **Dynamic Catalog**: Browse through vendor items with smooth image caching and dynamic UI states.
 - **Intelligent Cart System**: Cart validation strictly checks for regional coverage and real-time vendor availability before checkout.
 - **Order Tracking**: End-to-end real-time visibility from pending to delivered status.
 - **Push Notifications**: Instant alerts via Firebase Cloud Messaging for critical order updates.
 - **Favorites & Profile Management**: Persistent user preferences and secure tokenized sessions.
 
-### 👨‍💼 Business & Vendor Management
+###  Business & Vendor Management
 - **Order Pipeline Control**: Strict state machine enforcement (Admin Confirm → Vendor Accept).
 - **Vendor Status Overrides**: Automated business hours toggling with manual status override capabilities.
 - **Inventory Management**: Full CRUD operations for regional catalogs, including robust image handling.
@@ -59,11 +57,11 @@ Our platform consists of three tightly integrated repositories:
 - **Domain-Driven API**: Deeply compartmentalized PHP backend isolating user, vendor, and admin scopes.
 - **JWT Authentication**: Secure, stateless token-based sessions across all clients.
 - **Strict Role-Based Access Control (RBAC)**: Ensuring complete data isolation across varying permission tiers.
-- **State Management**: Reactive and localized UI updates powered by GetX.
+- **State Management**: Reactive and localized UI updates powered by Riverpod.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### System Overview
 
@@ -107,7 +105,7 @@ Our platform consists of three tightly integrated repositories:
 
 #### Frontend (Mobile Apps)
 - **Framework**: Flutter 3.6+
-- **State Management**: GetX
+- **State Management**: Riverpod
 - **Storage**: GetStorage, Flutter Secure Storage
 - **Networking**: HTTP package with interceptors
 - **Push Notifications**: Firebase Cloud Messaging (FCM)
@@ -122,7 +120,7 @@ Our platform consists of three tightly integrated repositories:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -179,7 +177,7 @@ flutter run
 
 ---
 
-## 📚 Documentation
+##  Documentation
 
 ### API Documentation
 
@@ -244,7 +242,7 @@ Authorization: Bearer {your_jwt_token}
 
 ---
 
-## 🔐 Security
+##  Security
 
 ### Implemented Measures
 
@@ -260,7 +258,7 @@ Authorization: Bearer {your_jwt_token}
 
 ---
 
-## 📱 Supported Platforms
+##  Supported Platforms
 
 ### Client Applications
 
@@ -271,19 +269,19 @@ Authorization: Bearer {your_jwt_token}
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions from the community. Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
 
 ### Development Guidelines
 
 - Adhere to the Flutter Style Guide and Dart best practices.
-- Document complex UI state transitions inside GetX controllers.
+- Document complex UI state transitions inside Riverpod controllers.
 - Ensure API changes do not break legacy mobile client versions.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -293,7 +291,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Streamlining Delivery Operations with Precision**
 
-[![Google Play](https://img.shields.io/badge/Google_Play-Get_it_on-34A853?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.yasser.order) [![Web App](https://img.shields.io/badge/Web_App-02569B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://order-gaza.web.app/)
+[![Google Play](https://img.shields.io/badge/Google_Play-Get_it_on-34A853?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.yasser.order) 
 
 [⬆ Back to Top](#order---comprehensive-delivery--e-commerce-platform)
 
