@@ -53,7 +53,7 @@ Our platform consists of three tightly integrated repositories:
 - **Regional Routing**: Intelligent order routing based on branch coverage and delivery zones.
 - **Operational Analytics**: Integrated visual dashboards and charts utilizing `fl_chart`.
 
-### 🔧 Technical Excellence
+### Technical Excellence
 - **Domain-Driven API**: Deeply compartmentalized PHP backend isolating user, vendor, and admin scopes.
 - **JWT Authentication**: Secure, stateless token-based sessions across all clients.
 - **Strict Role-Based Access Control (RBAC)**: Ensuring complete data isolation across varying permission tiers.
